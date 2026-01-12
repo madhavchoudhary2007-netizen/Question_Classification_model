@@ -1,0 +1,19 @@
+{
+  "model_comparison": {
+    "Random Forest": 0.7494,
+    "XGBoost": 0.7432,
+    "SVM": 0.7196,
+    "Tuned XGBoost": 0.7426,
+    "Tuned Random Forest": 0.7594,
+    "Voting Ensemble": 0.7532,
+    "Stacking Ensemble": 0.7558
+  },
+  "ablation_studies": {
+    "vocab_500": 0.7072,
+    "vocab_1000": 0.714,
+    "vocab_2000": 0.7188,
+    "ngram_(1, 1)": 0.7216,
+    "ngram_(1, 2)": 0.714,
+    "ngram_(1, 3)": 0.7056
+  }
+}

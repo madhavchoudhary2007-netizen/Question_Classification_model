@@ -1,0 +1,5 @@
+dataset/
+wandb/
+__pycache__/
+models/
+.env

@@ -1,0 +1,134 @@
+# Math Question Classifier - .gitignore
+# Professional Python ML Project
+
+# ============================================
+# API Keys and Secrets (NEVER COMMIT THESE!)
+# ============================================
+.env
+*.key
+secrets.json
+config.json
+
+# ============================================
+# Large Data Files (Too big for GitHub)
+# ============================================
+dataset/
+data/
+*.csv
+*.json
+!sample_data.json  # Allow small sample files
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# ============================================
+# Model Files (Large, can be regenerated)
+# ============================================
+models/
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# ============================================
+# Output Files (Regenerated each run)
+# ============================================
+outputs/
+results/
+logs/
+*.log
+
+# ============================================
+# WandB Experiment Tracking (Local only)
+# ============================================
+wandb/
+.wandb/
+
+# ============================================
+# Python Cache Files
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ============================================
+# Virtual Environments
+# ============================================
+venv/
+ENV/
+env/
+.venv
+venv.bak/
+
+# ============================================
+# IDE Settings
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ============================================
+# Jupyter Notebooks Checkpoints
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================
+# Testing
+# ============================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ============================================
+# Documentation Build Files
+# ============================================
+docs/_build/
+site/
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.swp
+~*
+
+# ============================================
+# OS Files
+# ============================================
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ============================================
+# Keep These Examples (For users)
+# ============================================
+!.env.example
+!sample_question.json
+!README.md

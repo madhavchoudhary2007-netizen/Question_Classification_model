@@ -1,0 +1,23 @@
+# Math Question Classifier - Requirements
+# Install all dependencies with: pip install -r requirements.txt
+
+# Core ML libraries
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+
+# Experiment tracking
+wandb>=0.16.0
+
+# LLM integration (Bonus task)
+groq>=0.4.0
+python-dotenv>=1.0.0
+
+# Optional: For better visualizations
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional: For local LLM (advanced users)
+# transformers>=4.30.0
+# torch>=2.0.0
