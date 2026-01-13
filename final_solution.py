@@ -3,8 +3,8 @@ Math Question Classifier - Text Classification System
 ======================================================
 
 A classical machine learning system for automated classification of mathematics
-questions into subtopics including Algebra, Calculus, Geometry, Statistics,
-and Trigonometry.
+questions into 7 topics: Algebra, Geometry, Intermediate Algebra, Precalculus,
+Number Theory, Counting & Probability, and Prealgebra.
 
 Features:
 - TF-IDF feature extraction with configurable parameters
